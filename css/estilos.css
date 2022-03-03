@@ -22,7 +22,29 @@ body{
     height: 100%;
     display: flex;
     flex-direction: column;
+    position: relative;
    
+}
+#contenedor #caja_linea{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 38px;
+    right: 30px;
+    display: none;
+   
+
+}
+#contenedor #caja_linea .linea{
+    width: 20px;
+    height: 2px;
+   
+    background-color: black;
+    
 }
 
 
@@ -82,6 +104,7 @@ body{
 #contenedor .menu .opciones span:hover{
     color: rgb(156, 156, 156);
 }
+
 #contenedor .foto{
     display: flex;
     justify-content: center;
@@ -243,9 +266,15 @@ body{
     align-items: center;
     margin: 10px;
 }
+
 #contenedor5 form input{
     width: 300px;
     margin-top: 20px;
+}
+#contenedor5 form .submit{
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
 }
 #contenedor6{
     width: 100%;
@@ -362,4 +391,39 @@ body{
 }
 #contenedor3 #fila_2 .img:hover .texto{
     opacity: 1;
+}
+@media (max-width:768px) {
+    .opciones{
+        display: flex;
+        width: 30%;
+        height: 40%;
+        position: fixed;
+        background-color: white;
+        top: 0;
+        left: 0;
+        flex-direction: column;
+        transform: translateX(-80vw);
+        transition-duration: 1.5s;
+    }
+    .opciones.open{
+        transform: translateX( 0%);
+    }
+    #contenedor #caja_linea{
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: absolute;
+        top: 22px;
+        right: 50px;   
+    }
+    #contenedor #caja_linea .linea{
+        width: 20px;
+        height: 2px;
+        background-color: black;
+
+        
+    }
 }
