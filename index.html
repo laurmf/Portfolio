@@ -99,11 +99,14 @@
             <div class="box">
                 <span>2</span>
             </div>
+
             <h1>SOBRE MI</h1>
-
-
         </div>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia eligendi delectus, <br> id sint, suscipit qui ab culpa nesciunt possimus cum maiores voluptatum vero repudiandae. <br> Voluptatibus, nostrum. Exercitationem, harum praesentium. Pariatur.</p>
+        <div class="col">
+            <img src="imgs/ilustracion.png" alt="">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Officia eligendi delectus, <br> id sint, suscipit qui ab culpa nesciunt <br> possimus cum maiores voluptatum vero repudiandae. <br> Voluptatibus, nostrum. Exercitationem, harum praesentium. Pariatur.</p>
+        </div>
+     
        
         
     </div>
@@ -118,8 +121,12 @@
         </div>
 
         <form action="sendEmail.php" method="POST">
-            <input type="text" placeholder="Tu nombre" name="nombre">
-            <input type="text" placeholder="Tu e-mail" name="correo">
+            <div class="col-2">
+                <input type="text" placeholder="Tu nombre" name="nombre">
+                <input type="text" placeholder="Tu e-mail" name="correo">
+
+            </div>
+           
             <input type="text" placeholder="Tu mensaje" name="mensaje">
             <input type="submit">
 
