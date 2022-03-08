@@ -10,7 +10,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="contenedor">
+    <div id="pagina-principal">
         <div id="caja_linea" >
             <div class="linea"></div>
             <div class="linea"></div>
@@ -29,10 +29,11 @@
                 
             </div>
             <div class="opciones">
-                <span>PAGINA PRINCIPAL</span>
-                <span>PORTFOLIO</span>
-                <span>SOBRE MI</span>
-                <span>CONTACTO</span>
+                <a href="#pagina-principal">PAGINA PRINCIPAL</a>
+                <a href="#portfolio">PORTFOLIO</a>
+                <a href="#sobre-mi">SOBRE MI</a>
+                <a href="#contacto">CONTACTO</a>
+
 
             </div>
            
@@ -51,7 +52,7 @@
         
     </div>
     
-    <div id="contenedor3">
+    <div id="portfolio">
         <div id="fila" >
             <div class="box">
                 <span>1</span>
@@ -94,7 +95,7 @@
 
 
     </div>
-    <div id="contenedor4" >
+    <div id="sobre-mi" >
         <div class="fila_3">
             <div class="box">
                 <span>2</span>
@@ -110,7 +111,7 @@
        
         
     </div>
-    <div id="contenedor5">
+    <div id="contacto">
         <div class="fila_3">
             <div class="box">
                 <span>3</span>
@@ -121,17 +122,29 @@
         </div>
 
         <form action="sendEmail.php" method="POST">
-            <div class="col-2">
-                <input type="text" placeholder="Tu nombre" name="nombre">
-                <input type="text" placeholder="Tu e-mail" name="correo">
+            <div class="fila_4">
+                <div class="col-2">
+                    <input type="text" placeholder="Tu nombre" name="nombre">
+                    <input type="text" placeholder="Tu e-mail" name="correo">
+    
+                </div>
+               <div class="col-3">
+                <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
+    
+               </div>
+               
+
+
+
 
             </div>
            
-            <input type="text" placeholder="Tu mensaje" name="mensaje">
+           <div class="fila_5">
             <input type="submit">
-
+           </div>
+           
         </form>
-
+        
     </div>
     <div id="contenedor6" >
         <div class="box_1">
