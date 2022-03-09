@@ -20,6 +20,8 @@ body{
 html{
     scroll-behavior: smooth;
 }
+
+/* HOME */
 #pagina-principal{
     width: 100%;
     height: 100%;
@@ -549,5 +551,73 @@ html{
         display: flex;
     }
     
+   
+}
+
+
+ /* RETRATO */
+ #fotos-retrato{
+    width: 100%;
+}
+#fotos-retrato #fila_6{
+    width: 100%;
     
+    
+    
+}
+#fotos-retrato #fila_6 .img{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  
+}
+#fotos-retrato #fila_6 .img #cajita{
+    padding-top: 50px;
+}
+#fotos-retrato #fila_6 .img #cajita3{
+    padding-top: 100px;
+}
+#fotos-retrato #fila_6 .img img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    
+}
+#fotos-retrato #fila_7{
+    width: 100%;
+
+}
+#fotos-retrato #fila_7 .img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#fotos-retrato #fila_7 .img img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    
+}
+#fotos-retrato #fila_7 .img #cajita4{
+    padding-top: 100px;
+}
+#fotos-retrato #fila_8{
+    width: 100%;
+}
+#fotos-retrato #fila_8 .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fotos-retrato #fila_8 .img img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+#fotos-retrato #fila_8 .img #cajita6{
+    padding-right: 200px;
+    padding-top: 100px;
 }
