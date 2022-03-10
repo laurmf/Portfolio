@@ -171,7 +171,9 @@ html{
     align-items: center;
     margin-top: 100px;
 }
-
+#portfolio #fila_1 a{
+    display: inline-block;
+}
 #portfolio #fila_1 img{
     width: 300px;
     height: 400px;
@@ -579,7 +581,19 @@ html{
 #fotos-retrato #fila_6 .img #cajita3{
     padding-top: 100px;
 }
-#fotos-retrato #fila_6 .img img{
+#fotos-retrato #fila_6 .img #cajita img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    
+}
+#fotos-retrato #fila_6 .img #cajita2 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    
+}
+#fotos-retrato #fila_6 .img #cajita3 img{
     width: 300px;
     height: 400px;
     object-fit: cover;
@@ -595,7 +609,12 @@ html{
     justify-content: space-evenly;
     align-items: center;
 }
-#fotos-retrato #fila_7 .img img{
+#fotos-retrato #fila_7 .img #cajita4 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    
+}#fotos-retrato #fila_7 .img #cajita5 img{
     width: 300px;
     height: 400px;
     object-fit: cover;
@@ -612,7 +631,12 @@ html{
     justify-content: center;
     align-items: center;
 }
-#fotos-retrato #fila_8 .img img{
+#fotos-retrato #fila_8 .img #cajita6 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+#fotos-retrato #fila_8 .img #cajita7 img{
     width: 300px;
     height: 400px;
     object-fit: cover;
@@ -620,4 +644,129 @@ html{
 #fotos-retrato #fila_8 .img #cajita6{
     padding-right: 200px;
     padding-top: 100px;
+}
+#fotos-retrato #fila_9{
+    width: 100%;
+}
+#fotos-retrato #fila_9 .img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#fotos-retrato #fila_9 .img #cajita8 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+#fotos-retrato #fila_9 .img #cajita9 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+#fotos-retrato #fila_10{
+    width: 100%;
+
+}
+#fotos-retrato #fila_10 .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fotos-retrato #fila_10 .img #cajita10 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+#fotos-retrato #fila_10 .img #cajita11 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+#fotos-retrato #fila_10 .img #cajita10{
+    padding-top: 80px;
+    padding-right: 300px;
+}
+#fotos-retrato #fila_11{
+    width: 100%;
+}
+#fotos-retrato #fila_11 .img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#fotos-retrato #fila_11 .img #cajita12 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+#fotos-retrato #fila_11 .img #cajita13 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+#fotos-retrato #fila_11 .img #cajita14 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+#fotos-retrato #fila_11 .img #cajita13{
+    margin-top: 50px;
+}
+#fotos-retrato #fila_12{
+    width: 100%;
+}
+#fotos-retrato #fila_12 .img{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#fotos-retrato #fila_12 .img #cajita15 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+#fotos-retrato #fila_12 .img #cajita16 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+#fotos-retrato #fila_13{
+    width: 100%;
+}
+#fotos-retrato #fila_13 .img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+#fotos-retrato #fila_13 .img #cajita17 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+#fotos-retrato #fila_13 .img #cajita18 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+#fotos-retrato #fila_14{
+    width: 100%;
+}
+#fotos-retrato #fila_14 .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#fotos-retrato #fila_14 .img #cajita19 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+#fotos-retrato #fila_14 .img #cajita20 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
 }
