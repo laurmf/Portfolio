@@ -8,70 +8,32 @@ $(document).ready(function(){
     // RETRATO SCROLL
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
-        // var movimiento= scroll/5;
-        // console.log( "Scroll: "+scroll);
-        // $("#cajita").css({
-        //     "transform":"translateY("+movimiento+"px)"
-        // })
+       
         scroll_fotos(scroll,5,"#cajita")
-        var movimiento= scroll/5;
-        console.log( "Scroll: "+scroll);
-        $("#cajita2").css({
-            "transform":"translateY("+movimiento+"px)"
-        })
-        var movimiento= scroll/8;
-        console.log( "Scroll: "+scroll);
-        $("#cajita3").css({
-            "transform":"translateY("+movimiento+"px)"
-        })
-        var movimiento= scroll/8;
-        console.log( "Scroll: "+scroll);
-        $("#cajita4").css({
-            "transform":"translateY("+movimiento+"px)"
-        })
-        var movimiento= scroll/5;
-        console.log( "Scroll: "+scroll);
-        $("#cajita5").css({
-            "transform":"translateY("+movimiento+"px)"
-        })
-        var movimiento= scroll/8;
-        console.log( "Scroll: "+scroll);
-        $("#cajita6").css({
-            "transform":"translateY("+movimiento+"px)"
-        })
-        var movimiento= scroll/5;
-        console.log( "Scroll: "+scroll);
-        $("#cajita7").css({
-            "transform":"translateY("+movimiento+"px)"
-        })
-        var movimiento= scroll/8;
-        console.log( "Scroll: "+scroll);
-        $("#cajita8").css({
-            "transform":"translateY("+movimiento+"px)"
-        })
-        var movimiento= scroll/8;
-        console.log( "Scroll: "+scroll);
-        $("#cajita9").css({
-            "transform":"translateY("+movimiento+"px)"
-        })
-        var movimiento= scroll/8;
-        console.log( "Scroll: "+scroll);
-        $("#cajita12").css({
-            "transform":"translateY("+movimiento+"px)"
-        })
-        var movimiento= scroll/8;
-        console.log( "Scroll: "+scroll);
-        $("#cajita13").css({
-            "transform":"translateY("+movimiento+"px)"
-        })
-        var movimiento= scroll/8;
-        console.log( "Scroll: "+scroll);
-        $("#cajita14").css({
-            "transform":"translateY("+movimiento+"px)"
-        })
-        scroll_fotos(scroll,8,"#cajita15")
         
-        scroll_fotos(scroll,8,"#cajita15")
+        scroll_fotos(scroll,5,"#cajita2")
+       
+        scroll_fotos(scroll,8,"#cajita3")
+       
+        scroll_fotos(scroll,8,"#cajita4")
+   
+        scroll_fotos(scroll,5,"#cajita5")
+        
+        scroll_fotos(scroll,5,"#cajita6")
+       
+        scroll_fotos(scroll,5,"#cajita7")
+      
+        scroll_fotos(scroll,8,"#cajita8")
+       
+        scroll_fotos(scroll,8,"#cajita9")
+      
+        scroll_fotos(scroll,8,"#cajita12")
+        
+        scroll_fotos(scroll,8,"#cajita13")
+        
+        scroll_fotos(scroll,8,"#cajita14")
+        
+        scroll_fotos(scroll,-8,"#cajita15")
 
        
         scroll_fotos(scroll,-5,"#cajita16")
