@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="css/estilos.css">
     <script src="https://kit.fontawesome.com/2d60c846f7.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Librería de emailjs -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!-- Conexión a archivo local de configuración de envío -->
+    <script src="js/sendemailjs.js"></script>
 </head>
 <body>
     <div id="pagina-principal">
@@ -126,7 +131,7 @@
 
         </div>
 
-        <form action="sendEmail.php" method="POST">
+        <form id="contact-form" method="POST">
             <div class="fila_4">
                 <div class="col-2">
                     <input type="text" placeholder="Tu nombre" name="nombre">
@@ -143,12 +148,17 @@
 
 
             </div>
+         
            
            <div class="fila_5">
-            <input type="submit">
+            <input id="enviar" type="submit">
            </div>
            
         </form>
+        <div class="exito">
+            <h3>¡GRACIAS POR CONTACTAR!</h3>
+            <span>Te contestaré lo antes posible</span>
+        </div>
         
     </div>
     <div id="contenedor6" >

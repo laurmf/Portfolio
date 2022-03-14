@@ -287,6 +287,12 @@ html{
     display: flex;
     flex-direction: column;
 }
+#contacto  .exito{
+    display: none;
+    font-family: Roboto;
+    color: rgb(43, 43, 43);
+
+}
 #contacto form .fila_4{
     display: flex;
     flex-direction: row;
@@ -485,7 +491,7 @@ html{
     .opciones.open{
         transform: translateX( 0%);
     }
-    #contenedor #caja_linea{
+    #pagina-principal #caja_linea{
         width: 40px;
         height: 40px;
         padding: 10px;
@@ -496,60 +502,60 @@ html{
         top: 22px;
         right: 50px;   
     }
-    #contenedor #caja_linea .linea{
+    #pagina-principal #caja_linea .linea{
         width: 20px;
         height: 2px;
         background-color: black;
 
         
     }
-    #po{
+    #portfolio{
         height: 965px;
     }
-    #contenedor3 #fila_1{
+   #portfolio #fila_1{
         padding-left: 25px;
         padding-right: 25px;
     }
-    #contenedor3 #fila_1 img{
+    #portfolio #fila_1 img{
         width: 200px;
         height: 280px;
         object-fit: cover;
        
     }
-    #contenedor3 #fila_1 .img{
+    #portfolio #fila_1 .img{
         position: relative;
     }
-    #contenedor3 #fila_1 .img .texto{
+    #portfolio #fila_1 .img .texto{
        position: absolute;
        top: 0;
        left: 0;
        opacity: 1;
        text-align: center;
     }
-    #contenedor3 #fila_1 .img img{
+    #portfolio #fila_1 .img img{
         display: flex;
     }
-    #contenedor3 #fila_2{
+    #portfolio #fila_2{
         padding-left: 25px;
         padding-right: 25px;
     }
-    #contenedor3 #fila_2 img{
+    #portfolio #fila_2 img{
         width: 200px;
         height: 280px;
         object-fit: cover;
        
     }
-    #contenedor3 #fila_2 .img{
+    #portfolio #fila_2 .img{
         position: relative;
     }
-    #contenedor3 #fila_2 .img .texto{
+    #portfolio #fila_2 .img .texto{
        position: absolute;
        top: 0;
        left: 0;
        opacity: 1;
        text-align: center;
     }
-    #contenedor3 #fila_2 .img img{
+    #portfolio #fila_2 .img img{
         display: flex;
     }
     
@@ -668,6 +674,7 @@ html{
     height: 400px;
     object-fit: cover;
     transform: scale(0.7);
+    z-index: 4;
 }
 #fotos-retrato #fila_9 .img #cajita9 img{
     width: 300px;
@@ -687,6 +694,8 @@ html{
     width: 300px;
     height: 400px;
     object-fit: cover;
+    z-index: 5;
+    position: relative;
 }
 #fotos-retrato #fila_10 .img #cajita11 img{
     width: 300px;
@@ -782,6 +791,129 @@ html{
     transform: scale(0.7);
 }
 #fotos-retrato #fila_14 .img #cajita20 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+/* MODA */
+#fotos_moda{
+    width: 100%;
+}
+#fotos_moda #fila_6{
+    width: 100%;
+    
+    
+    
+}
+#fotos_moda #fila_6 .img{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  
+}
+#fotos_moda #fila_6 .img #moda_cajita{
+    padding-top: 50px;
+    position: relative;
+    z-index: 5;
+}
+#fotos_moda #fila_6 .img #moda_cajita3{
+    padding-top: 100px;
+}
+#fotos_moda #fila_6 .img #moda_cajita img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    
+    
+}
+
+#fotos_moda #fila_6 .img #moda_cajita2 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    
+}
+#fotos_moda #fila_6 .img #moda_cajita3 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    transform: scale(0.7);
+    
+}
+#fotos_moda #fila_7{
+    width: 100%;
+
+}
+#fotos_moda #fila_7 .img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#fotos_moda #fila_7 .img #moda_cajita4 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    transform: scale(0.9);
+    
+}#fotos_moda #fila_7 .img #moda_cajita5 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    
+}
+#fotos_moda #fila_7 .img #moda_cajita4{
+    padding-top: 100px;
+    position: relative;
+    z-index: 3;
+}
+#fotos_moda #fila_8{
+    width: 100%;
+}
+#fotos_moda #fila_8 .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fotos_moda #fila_8 .img #moda_cajita6 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+#fotos_moda #fila_8 .img #moda_cajita7 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    transform: scale(0.7);
+}
+#fotos_moda #fila_8 .img #moda_cajita6{
+    padding-right: 200px;
+    padding-top: 100px;
+    z-index: 5;
+}
+#fotos_moda #fila_9{
+    width: 100%;
+}
+#fotos_moda #fila_9 .img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#fotos_moda #fila_9 .img #moda_cajita8 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    transform: scale(0.7);
+    z-index: 4;
+}
+#fotos_moda #fila_9 .img #moda_cajita9 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+#fotos_moda #fila_9 .img #moda_cajita10 img{
     width: 300px;
     height: 400px;
     object-fit: cover;
