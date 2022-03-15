@@ -61,7 +61,7 @@ $(document).ready(function(){
         
 
     })
-    // BEAUTY SCROLL
+    
 
     // STREET SCROLL
     $(window).scroll(function(){
@@ -84,9 +84,29 @@ $(document).ready(function(){
 
     })
 
-    
+    // PAISAJE SCROLL
 
+    $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+       
 
+        scroll_fotos(scroll,5,"cajita_paisaje")
+        
+        scroll_fotos(scroll,5,"cajita_paisaje2")
+       
+        scroll_fotos(scroll,8,"cajita_paisaje3")
+       
+        scroll_fotos(scroll,8,"cajita_paisaje4")
+   
+        scroll_fotos(scroll,5,"cajita_paisaje5")
+        
+        scroll_fotos(scroll,5,"cajita_paisaje6")
+       
+        scroll_fotos(scroll,5,"cajita_paisaje7")
+       
+        
+
+    })
 
 
 

@@ -187,6 +187,9 @@ html{
     align-items: center;
     margin-top: 50px;
 }
+#portfolio #fila_2 a{
+    display: inline-block;
+}
 #portfolio #fila_2 img{
     width: 300px;
     height: 400px;
@@ -919,6 +922,62 @@ html{
     object-fit: cover;
 }
 /* BEAUTY */
+#fotos_beauty{
+    width: 100%;
+}
+
+#fotos_beauty #fila_7{
+    width: 100%;
+
+}
+#fotos_beauty #fila_7 .img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#fotos_beauty #fila_7 .img #cajita_beauty4 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    transform: scale(0.9);
+    
+}#fotos_beauty #fila_7 .img #cajita_beauty5 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    
+}
+#fotos_beauty #fila_7 .img #cajita_beauty4{
+    padding-top: 100px;
+    position: relative;
+    z-index: 3;
+}
+#fotos_beauty #fila_8{
+    width: 100%;
+}
+#fotos_beauty #fila_8 .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fotos_beauty #fila_8 .img #cajita_beauty6 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+#fotos_beauty #fila_8 .img #cajita_beauty7 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    transform: scale(0.7);
+}
+#fotos_beauty #fila_8 .img #cajita_beauty6{
+    padding-right: 200px;
+    padding-top: 100px;
+    z-index: 5;
+}
+
 
 /* STREET STYLE */
 #fotos_street{
@@ -1022,3 +1081,206 @@ html{
 }
 
 /* PAISAJE */
+#fotos_paisaje{
+    width: 100%;
+}
+#fotos_paisaje #fila_6{
+    width: 100%;
+    
+    
+    
+}
+#fotos_paisaje #fila_6 .img{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  
+}
+#fotos_paisaje #fila_6 .img #cajita_paisaje{
+    padding-top: 50px;
+    position: relative;
+    z-index: 5;
+}
+#fotos_paisaje #fila_6 .img #cajita_paisaje3{
+    padding-top: 100px;
+}
+#fotos_paisaje #fila_6 .img #cajita_paisaje img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    
+    
+}
+
+#fotos_paisaje #fila_6 .img #cajita_paisaje2 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    
+}
+#fotos_paisaje #fila_6 .img #cajita_paisaje3 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    transform: scale(0.7);
+    
+}
+#fotos_paisaje #fila_7{
+    width: 100%;
+
+}
+#fotos_paisaje #fila_7 .img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#fotos_paisaje #fila_7 .img #cajita_paisaje4 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    transform: scale(0.7);
+    
+}#fotos_paisaje #fila_7 .img #cajita_paisaje5 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    
+}
+#fotos_paisaje #fila_7 .img #cajita_paisaje4{
+    padding-top: 100px;
+    position: relative;
+    z-index: 3;
+}
+#fotos_paisaje #fila_8{
+    width: 100%;
+}
+#fotos_paisaje #fila_8 .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fotos_paisaje #fila_8 .img #cajita_paisaje6 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+#fotos_paisaje #fila_8 .img #cajita_paisaje7 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    transform: scale(0.7);
+}
+#fotos_paisaje #fila_8 .img #cajita_paisaje6{
+    padding-right: 200px;
+    padding-top: 100px;
+    z-index: 5;
+}
+#fotos_paisaje #fila_9{
+    width: 100%;
+}
+#fotos_paisaje #fila_9 .img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#fotos_paisaje #fila_9 .img #cajita_paisaje8 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    transform: scale(0.7);
+    z-index: 4;
+}
+#fotos_paisaje #fila_9 .img #cajita_paisaje9 img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+/* RESPONSIVE RETRATO */
+@media (max-width:768px){
+    #fotos-retrato #fila_6 .img #cajita img, #fotos-retrato #fila_6 .img #cajita2 img,#fotos-retrato #fila_6 .img #cajita3 img,
+    #fotos-retrato #fila_7 .img #cajita4 img,
+    #fotos-retrato #fila_7 .img #cajita5 img,
+    #fotos-retrato #fila_8 .img #cajita6 img,
+    #fotos-retrato #fila_8 .img #cajita7 img,
+    #fotos-retrato #fila_9 .img #cajita8 img,
+    #fotos-retrato #fila_9 .img #cajita9 img,
+    #fotos-retrato #fila_10 .img #cajita10 img,
+    #fotos-retrato #fila_10 .img #cajita11 img,
+    #fotos-retrato #fila_11 .img #cajita12 img,
+    #fotos-retrato #fila_11 .img #cajita13 img,
+    #fotos-retrato #fila_11 .img #cajita14 img,
+    #fotos-retrato #fila_12 .img #cajita15 img,
+    #fotos-retrato #fila_12 .img #cajita16 img,
+    #fotos-retrato #fila_13 .img #cajita17 img,
+    #fotos-retrato #fila_13 .img #cajita18 img,
+    #fotos-retrato #fila_14 .img #cajita19 img,
+    #fotos-retrato #fila_14 .img #cajita20 img {
+        width: 200px;
+        height: 300px;
+        object-fit: cover;
+    }
+}
+/* RESPONSIVE MODA */
+@media (max-width:768px){
+    #fotos_moda #fila_6 .img #moda_cajita img,
+    #fotos_moda #fila_6 .img #moda_cajita2 img,
+    #fotos_moda #fila_6 .img #moda_cajita3 img,
+    #fotos_moda #fila_7 .img #moda_cajita4 img,
+    #fotos_moda #fila_7 .img #moda_cajita5 img,
+    #fotos_moda #fila_8 .img #moda_cajita6 img,
+    #fotos_moda #fila_8 .img #moda_cajita7 img,
+    #fotos_moda #fila_9 .img #moda_cajita8 img,
+    #fotos_moda #fila_9 .img #moda_cajita9 img,
+    #fotos_moda #fila_9 .img #moda_cajita10 img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+}
+/* RESPONSIVE BEAUTY */
+@media (max-width:768px){
+    #fotos_beauty #fila_7 .img #cajita_beauty4 img,
+    #fotos_beauty #fila_7 .img #cajita_beauty5 img,
+    #fotos_beauty #fila_8 .img #cajita_beauty6 img,
+    #fotos_beauty #fila_8 .img #cajita_beauty7 img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+}
+/* RESPONSIVE STREET */
+@media (max-width:768px){
+    #fotos_street #fila_6 .img #cajita_street img,
+    #fotos_street #fila_6 .img #cajita_street2 img,
+    #fotos_street #fila_6 .img #cajita_street3 img,
+    #fotos_street #fila_7 .img #cajita_street4 img,
+    #fotos_street #fila_7 .img #cajita_street5 img,
+    #fotos_street #fila_8 .img #cajita_street6 img,
+    #fotos_street #fila_8 .img #cajita_street7 img{
+        width: 200px;
+        height: 300px;
+        object-fit: cover;
+    } 
+
+}
+/* RESPONSIVE PAISAJE */
+@media (max-width:768px){
+    #fotos_paisaje #fila_6 .img #cajita_paisaje img,
+    #fotos_paisaje #fila_6 .img #cajita_paisaje2 img,
+    #fotos_paisaje #fila_6 .img #cajita_paisaje3 img,
+    #fotos_paisaje #fila_7 .img #cajita_paisaje4 img,
+    #fotos_paisaje #fila_7 .img #cajita_paisaje5 img,
+    #fotos_paisaje #fila_8 .img #cajita_paisaje6 img,
+    #fotos_paisaje #fila_8 .img #cajita_paisaje7 img,
+    #fotos_paisaje #fila_9 .img #cajita_paisaje8 img,
+    #fotos_paisaje #fila_9 .img #cajita_paisaje9 img{
+        width: 200px;
+        height: 300px;
+        object-fit: cover;
+    }
+}
