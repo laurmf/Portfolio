@@ -42,41 +42,43 @@ $(document).ready(function(){
     // MODA SCROLL
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
-        var movimiento= scroll/5;
-        console.log( "Scroll: "+scroll);
-        $("#moda_cajita").css({
-            "transform":"translateY("+movimiento+"px)"
-        })
-        var movimiento= scroll/5;
-        console.log( "Scroll: "+scroll);
-        $("#moda_cajita2").css({
-            "transform":"translateY("+movimiento+"px)"
-        })
-        var movimiento= scroll/8;
-        console.log( "Scroll: "+scroll);
-        $("#moda_cajita3").css({
-            "transform":"translateY("+movimiento+"px)"
-        })
-        var movimiento= scroll/8;
-        console.log( "Scroll: "+scroll);
-        $("#moda_cajita4").css({
-            "transform":"translateY("+movimiento+"px)"
-        })
-        var movimiento= scroll/5;
-        console.log( "Scroll: "+scroll);
-        $("#moda_cajita5").css({
-            "transform":"translateY("+movimiento+"px)"
-        })
-        var movimiento= scroll/8;
-        console.log( "Scroll: "+scroll);
-        $("#moda_cajita6").css({
-            "transform":"translateY("+movimiento+"px)"
-        })
-        var movimiento= scroll/5;
-        console.log( "Scroll: "+scroll);
-        $("#moda_cajita7").css({
-            "transform":"translateY("+movimiento+"px)"
-        })
+       
+
+        scroll_fotos(scroll,5,"#moda_cajita")
+        
+        scroll_fotos(scroll,5,"#moda_cajita2")
+       
+        scroll_fotos(scroll,8,"#moda_cajita3")
+       
+        scroll_fotos(scroll,8,"#moda_cajita4")
+   
+        scroll_fotos(scroll,5,"#moda_cajita5")
+        
+        scroll_fotos(scroll,5,"#moda_cajita6")
+       
+        scroll_fotos(scroll,5,"#moda_cajita7")
+       
+        
+
+    })
+    // BEAUTY SCROLL
+
+    // STREET SCROLL
+    $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+       
+
+        scroll_fotos(scroll,5,"#cajita_street")
+        
+        scroll_fotos(scroll,5,"#cajita_street2")
+       
+        scroll_fotos(scroll,8,"#cajita_street3")
+       
+        scroll_fotos(scroll,8,"#cajita_street4")
+   
+        scroll_fotos(scroll,5,"#cajita_street5")
+        
+        
        
         
 
